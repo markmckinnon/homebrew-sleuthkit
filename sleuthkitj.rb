@@ -1,4 +1,4 @@
-class Sleuthkit < Formula
+class Sleuthkitj < Formula
   desc "Installs Sleuthkit supporting libraries and Java jars for Autopsy"
   homepage "https://sleuthkit.org"
   url "https://github.com/markmckinnon/homebrew-sleuthkit/blob/main/sleuthkit-macos-aarch64.tar.gz"
