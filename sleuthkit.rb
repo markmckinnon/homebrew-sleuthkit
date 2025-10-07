@@ -1,8 +1,8 @@
-class Sleuthkitj < Formula
+class Sleuthkit < Formula
   desc "Installs Sleuthkit supporting libraries and Java jars for Autopsy"
   homepage "https://sleuthkit.org"
   url "https://github.com/markmckinnon/homebrew-sleuthkit/blob/main/sleuthkit-macos-aarch64.tar.gz"
-  sha256 "0cd8cc0cd0db9362e7a1c1ee214527a579cda17997bf08a07edcd90c6f78995a"
+  sha256 "d9a6c45b4c0582bbd1f6cf58f650a61057a481ac603e2158be54973aa4f8f0c8"
   version "4.14.0"
 
   def install
@@ -11,3 +11,5 @@ class Sleuthkitj < Formula
     (share/"java").install Dir["usr/local/share/java/*"]
   end
 end
+
+
