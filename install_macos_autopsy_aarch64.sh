@@ -34,12 +34,12 @@ PROFILE_FILE="$HOME/.zprofile"
 echo "# Set JAVA_HOME and add to path >>>" >> "$PROFILE_FILE"
 echo "export JAVA_HOME=$(/usr/libexec/java_home)" >> "$PROFILE_FILE"
 echo "export PATH=\"\$JAVA_HOME/bin:\$PATH\"" >> "$PROFILE_FILE"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $PROFILE_FILE"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "$PROFILE_FILE"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo "Installing Sleuthkit"
 brew tap markmckinnon/sleuthkit
-brew install 
+brew install markmckinnon/sleuthkit/sleuthkit
 
 
 Echo "Linking libraries"
